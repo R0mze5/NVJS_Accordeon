@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+  <title>NVJS_Accordeon</title>
+  <link rel="shortcut icon" href="./dist/images/favicon/favicon.ico">
+  <link href="./dist/css/main.css" rel="stylesheet">
+  <link href="./dist/css/NVJS_Accordeon.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="accordeon">
+    <div class="accordeon__area">
+      <header class="accordeon__header">Title</header>
+      <div class="accordeon__container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque velit modi, asperiores commodi possimus dicta voluptates hic obcaecati autem omnis incidunt praesentium perspiciatis blanditiis eligendi reprehenderit mollitia harum id. Mollitia.</div>
+    </div>
+    <div class="accordeon__area">
+      <header class="accordeon__header">Title</header>
+      <div class="accordeon__container">Aspernatur fugit commodi odit molestias sed. Ex, hic omnis laborum harum ipsam quod possimus eligendi culpa laudantium eveniet aliquam ea nam necessitatibus? Facere blanditiis earum eum praesentium ipsum maxime optio!</div>
+    </div>
+    <div class="accordeon__area">
+      <header class="accordeon__header">Title</header>
+      <div class="accordeon__container">Praesentium a soluta dignissimos, illum numquam, dolor doloribus corporis eos repellendus dolore, dicta enim. Cumque sed sint vel dolore maiores odit, animi ratione, ipsum rem inventore qui tenetur earum sunt.</div>
+    </div>
+    <div class="accordeon__area">
+      <header class="accordeon__header">Title</header>
+      <div class="accordeon__container">Maxime aperiam doloribus vero quasi reiciendis quod at ad dicta, iste error nihil deserunt, aliquid, possimus dignissimos numquam accusamus incidunt. Provident veritatis autem cumque culpa facere dignissimos mollitia architecto similique.</div>
+    </div>
+    <div class="accordeon__area">
+      <header class="accordeon__header">Title</header>
+      <div class="accordeon__container">Ratione ipsam reiciendis quibusdam. Sed harum magni voluptatem, quia eaque dolorum facere perferendis at voluptates dolorem, alias blanditiis pariatur distinctio laudantium. Vero beatae maxime fugiat ex incidunt quis, laboriosam nisi!</div>
+    </div>
+  </div>
+  
+
+  
+  <script src="./dist/js/NVJS_Accordeon.js"></script>
+
+  <script>
+    new NVJSAccordeon('.accordeon', {
+      buttons: '.accordeon__header',
+      buttonsActiveClass: 'active',
+      blocks: '.accordeon__area',
+      blockActiveClass: 'open'
+    });
+  </script>
+</body>
+
+</html>
